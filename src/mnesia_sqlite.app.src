@@ -1,0 +1,13 @@
+{application, mnesia_sqlite,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  'erlang-sqlite3'
+                 ]},
+  {mod, { mnesia_sqlite_app, []}},
+  {env, []}
+ ]}.
